@@ -1,5 +1,5 @@
 function qs(selector){
-	return document.querySelector(selector);
+	return 'bla';
 };
 
 function $(selector){
