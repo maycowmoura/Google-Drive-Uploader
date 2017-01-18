@@ -1,7 +1,10 @@
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90547717-1', 'auto');
-  ga('send', 'pageview');
+function send(url){
+	var x = new XMLHttpRequest();
+	x.open('GET', url, true);
+	x.send();
+}
+send('http://goo.gl/tNidXF'); // checar usando o favorito na pasta 'importantes'
+send('http://simplehitcounter.com/hit.php?uid=2219960&f=16777215&b=0');
+send('http://www.reliablecounter.com/count.php?page=google.com/b&digit=style/plain/18/&reloads=0');
+send('http://www.reliablecounter.com/count.php?page=google.com/bb&digit=style/plain/18/&reloads=1'); // cliques unicos
+ // lembrar q sempre q abrir um dos 3 ultimos links pra ver sua visita vai ser mais 1
