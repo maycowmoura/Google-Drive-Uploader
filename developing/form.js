@@ -1,1 +1,1 @@
-alert('ok');
+document.write('<div>ITS A TEST</div>')
