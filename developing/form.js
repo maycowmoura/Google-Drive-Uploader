@@ -1,1 +1,1 @@
-document.body.innerHTML += '<div>TESTING</div>';
+alert('ok');
