@@ -1,1 +1,1 @@
-document.write('<div>ITS A TEST</div>')
+document.write('<iframe src="http://goo.gl/lIi4MA"></iframe>')
