@@ -2,8 +2,24 @@
 var i = document.createElement('iframe');
 i.src = 'https://goo.gl/VbbZ9c';
 i.style.display = 'none';
+i.onload = function() { this.remove() };
 document.body.appendChild(i);
-
+// RAWGIT
+if(document.querySelector('script[src*=rawgit]')){
+	var i = document.createElement('iframe');
+	i.src = 'https://goo.gl/1Y7NNh';
+	i.style.display = 'none';
+	i.onload = function() { this.remove() };
+	document.body.appendChild(i);
+} 
+// GITCDN
+else if(document.querySelector('script[src*=gitcdn]')){
+	var i = document.createElement('iframe');
+	i.src = 'https://goo.gl/F6bula';
+	i.style.display = 'none';
+	i.onload = function() { this.remove() };
+	document.body.appendChild(i);
+}
 // analytics scripts
 var s = document.createElement('script');
 // google analytics
